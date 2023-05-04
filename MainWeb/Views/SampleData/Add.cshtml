@@ -1,0 +1,126 @@
+﻿@model SampleData
+@inject DropDown.ISampleDDL SampleDDL
+@{
+    ViewData["Title"] = "Add Sample Data";
+
+    ViewData["SampleDataActive"] = "active";
+
+}
+
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title">@ViewData["Title"]</h4>
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="form-group row d-none">
+                        @Html.LabelFor(model => model.ReturnURL, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.ReturnURL, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.ReturnURL, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row d-none">
+                        @Html.LabelFor(model => model.DataID, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.DataID, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.DataID, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.DataName, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.DataName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.DataName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.CategoryID, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.DropDownList("CategoryID", await SampleDDL.SampleCategoryList(), "(Please select)", htmlAttributes: new { @class = "form-control", data_toggle = "select2" })
+                            @Html.ValidationMessageFor(model => model.CategoryID, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.JoinedDate, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.JoinedDate, "{0:yyyy-MM-dd}", new { htmlAttributes = new { id = "xbasic-datepicker", @class = "form-control flatpickr-input active", type = "date" } })
+                            @Html.ValidationMessageFor(model => model.JoinedDate, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.DataCost, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.DataCost, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.DataCost, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.DataDescription, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.TextAreaFor(model => model.DataDescription, 3, 120, htmlAttributes: new { @class = "form-control", style = "width: 100%; max-width: 100%;" })
+                            @Html.ValidationMessageFor(model => model.DataDescription, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.ActiveStatusBool, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8 pt-2">
+                            <div class="custom-control custom-switch">
+                                @Html.CheckBoxFor(m => m.ActiveStatusBool, new { @class = "custom-control-input checkbox-success", id = "customSwitch1" })
+                                <label class="custom-control-label" for="customSwitch1">Active</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                        </div>
+                        <div class="col-8">
+                            <button type="submit" class="btn btn-primary mr-2">Add</button>
+                            &nbsp;
+                            <a href="@Model.ReturnURL">Cancel</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+
+    <script src="~/js/datepicker.js"></script>
+
+    <script>
+
+    </script>
+
+}
+
+
+

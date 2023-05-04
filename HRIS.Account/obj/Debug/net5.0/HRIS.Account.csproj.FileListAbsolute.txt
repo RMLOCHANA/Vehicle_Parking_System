@@ -1,0 +1,102 @@
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\HRIS.Account.deps.json
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\HRIS.Account.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\ref\HRIS.Account.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\HRIS.Account.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\Common.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\DBAccess.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\Common.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\bin\Debug\net5.0\DBAccess.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csprojAssemblyReference.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfoInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfo.cs
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CoreCompileInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CopyComplete
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\ref\HRIS.Account.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\HRIS.Account.deps.json
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\HRIS.Account.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\HRIS.Account.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\Common.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\DBAccess.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\Common.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\bin\Debug\net5.0\DBAccess.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.AssemblyReference.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfoInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfo.cs
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CoreCompileInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CopyComplete
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\refint\HRIS.Account.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\HRIS.Account.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Account\obj\Debug\net5.0\ref\HRIS.Account.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.deps.json
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.AssemblyReference.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfoInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfo.cs
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CoreCompileInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CopyComplete
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\refint\HRIS.Account.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\ref\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CopyComplete
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\refint\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Account\obj\Debug\net5.0\ref\HRIS.Account.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.deps.json
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.AssemblyReference.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfoInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfo.cs
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CoreCompileInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CopyComplete
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\refint\HRIS.Account.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\ref\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\HRIS.Account.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\bin\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.csproj.CopyComplete
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\refint\HRIS.Account.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\HRIS.Account.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Account\obj\Debug\net5.0\ref\HRIS.Account.dll

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<HRIS.Sample.Models.Customer>
+
+@{
+    Layout = null;
+}
+
+<div class="table-responsive">
+    <table class="table table-centered table-nowrap table-striped">
+        <thead>
+            <tr>
+                <th class="d-none">@Html.DisplayNameFor(model => model.First().Cus_id)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Cus_name)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Cus_addresss)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Cus_email)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Cus_password)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Cus_phonenumber)</th>
+                
+                <th style="width:70px;">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tblBody">
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.Cus_id">
+                    <td class="d-none">@Html.DisplayFor(modelItem => item.Cus_id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cus_name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cus_addresss)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cus_email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cus_password)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Cus_phonenumber)</td>
+                    
+                    <td>
+                        <a href="@Url.Action("Edit", new { id = item.Cus_id })" class="table-icon text-primary"><i class="mdi mdi-square-edit-outline"></i></a>
+                        <a href="javascript:void(0);" onclick="ConfirmDelete('@item.Cus_id','@Url.Action("Delete")')" class="table-icon text-danger"> <i class="mdi mdi-delete"></i></a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+

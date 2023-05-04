@@ -1,0 +1,7 @@
+﻿.form-group.row {
+    padding: 4px 0;
+}
+
+select.form-control, select {
+    color: inherit;
+}

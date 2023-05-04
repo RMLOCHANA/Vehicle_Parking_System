@@ -1,0 +1,11 @@
+﻿.sidebar .sidebar-header .sidebar-brand {
+    font-size: 22px;
+}
+
+    .sidebar .sidebar-header .sidebar-brand span {
+        margin-left: 5px;
+    }
+
+.sidebar .sidebar-body .nav.sub-menu {
+    padding: 0px 0px 15px 43px;
+}

@@ -1,0 +1,35 @@
+﻿@model IEnumerable<HRIS.Sample.Models.SampleCategory>
+
+@{
+    Layout = null;
+}
+
+<div class="table-responsive">
+    <table class="table table-centered table-nowrap table-striped">
+        <thead>
+            <tr>
+                <th class="d-none">@Html.DisplayNameFor(model => model.First().CategoryID)</th>
+                <th>@Html.DisplayNameFor(model => model.First().CategoryName)</th>
+                <th>@Html.DisplayNameFor(model => model.First().DataCountDisplay)</th>
+                <th style="width:70px;">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tblBody">
+            @foreach (var item in Model)
+            {
+            <tr id="row_@item.CategoryID">
+                <td class="d-none">@Html.DisplayFor(modelItem => item.CategoryID)</td>
+                <td>@Html.DisplayFor(modelItem => item.CategoryName)</td>
+                <td>@Html.DisplayFor(modelItem => item.DataCountDisplay)</td>
+                <td>
+                    <a href="@Url.Action("Edit", new { id = item.CategoryID })" class="table-icon text-primary"><i class="mdi mdi-square-edit-outline"></i></a>
+                    <a href="javascript:void(0);" onclick="ConfirmDelete('@item.CategoryID','@Url.Action("Delete")')" class="table-icon text-danger"> <i class="mdi mdi-delete"></i></a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+

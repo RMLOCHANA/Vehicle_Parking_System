@@ -1,0 +1,102 @@
+﻿@model LoginView
+@{
+    ViewData["Title"] = "Customer - Advance Parking ";
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/lib/core/core.css">
+    <link rel="stylesheet" href="~/fonts/feather-font/css/iconfont.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <link rel="stylesheet" href="~/custom-css/header.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/custom-css/html.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/custom-css/sidebar.css" asp-append-version="true">
+
+    <link rel="shortcut icon" href="~/favicon.ico" />
+</head>
+<body class="sidebar-dark">
+    <div class="main-wrapper">
+        <div class="page-wrapper full-page">
+            <div class="page-content d-flex align-items-center justify-content-center">
+
+                <div class="row w-100 mx-0 auth-page">
+                    <div class="col-md-8 col-xl-6 mx-auto">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-12 pl-md-0">
+                                    <div class="auth-form-wrapper px-4 py-5">
+                                        <a href="#" class="noble-ui-logo d-block mb-2">Advance<span> Parking</span></a>
+                                        <h5 class="text-muted font-weight-normal mb-4">Welcome Customer! Log in to Booking account.</h5>
+                                        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "forms-sample" }))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Email", autofocus = "autofocus" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-lock"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your password" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group d-none">
+                                                @Html.EditorFor(model => model.ReturnURL, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(model => model.ReturnURL, "", new { @class = "text-danger" })
+                                            </div>
+                                           
+                                            <div class="mt-3">
+                                                <a href="~/CustomerBooking/HOME" class="btn btn-primary btn-block text-white">Login</a>
+                                            </div>
+                                            <div class="mt-3 text-center">
+                                                <a href="~/Account/ForgotPassword" class="text-muted">Forgot your password?</a>
+                                            </div>
+                                            <hr>
+                                            <div class="mt-3 text-center">
+                                                <p class="text-muted mb-0">Don't have an account?</p>
+                                                <a href="~/Account/Register" class="btn btn-outline-primary btn-block">Sign Up</a>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/core/core.js"></script>
+    <script src="~/lib/feather-icons/feather.min.js"></script>
+    <script src="~/js/template.js"></script>
+
+    <script src="~/js/custom.js" asp-append-version="true"></script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+</body>
+</html>
+
+

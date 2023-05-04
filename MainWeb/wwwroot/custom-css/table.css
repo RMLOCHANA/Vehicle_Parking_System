@@ -1,0 +1,18 @@
+﻿.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f7f7f7;
+}
+
+.table thead th {
+    text-transform: none;
+    color: #727cf5;
+}
+
+.table td, .table th {
+    padding: .55rem;
+}
+
+.table-icon {
+    font-size: 0.975rem;
+    display: inline-block;
+    padding: 0 2px;
+}

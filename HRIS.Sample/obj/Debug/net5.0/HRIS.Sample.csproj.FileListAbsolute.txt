@@ -1,0 +1,102 @@
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.deps.json
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\ref\HRIS.Sample.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\Common.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\DBAccess.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\Common.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\DBAccess.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csprojAssemblyReference.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfoInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfo.cs
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CoreCompileInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CopyComplete
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\ref\HRIS.Sample.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.deps.json
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\Common.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\DBAccess.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\Common.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\bin\Debug\net5.0\DBAccess.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.AssemblyReference.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfoInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfo.cs
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CoreCompileInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CopyComplete
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\refint\HRIS.Sample.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\HRIS.Sample\obj\Debug\net5.0\ref\HRIS.Sample.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.deps.json
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.AssemblyReference.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfoInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfo.cs
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CoreCompileInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CopyComplete
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\refint\HRIS.Sample.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\ref\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CopyComplete
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\refint\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\HRIS.Sample\obj\Debug\net5.0\ref\HRIS.Sample.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.deps.json
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.AssemblyReference.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfoInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfo.cs
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CoreCompileInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CopyComplete
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\refint\HRIS.Sample.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\ref\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\HRIS.Sample.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\bin\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.csproj.CopyComplete
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\refint\HRIS.Sample.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\HRIS.Sample.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\HRIS.Sample\obj\Debug\net5.0\ref\HRIS.Sample.dll

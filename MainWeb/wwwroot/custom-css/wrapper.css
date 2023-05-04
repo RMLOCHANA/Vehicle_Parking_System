@@ -1,0 +1,16 @@
+﻿
+
+.main-wrapper .page-wrapper .page-content {
+    margin-top: 35px
+}
+
+.page-title-box .page-title {
+    font-size: 1.25rem;
+    margin: 0;
+    line-height: 65px;
+    color: #323a46;
+}
+
+.grid-margin {
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,179 @@
+﻿@model V_Number_Temp
+@inject DropDown.ISampleDDL SampleDDL
+@{
+    ViewData["Title"] = "Booking";
+
+    ViewData["DashboardActive"] = "active";
+
+}
+
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <h4 class="page-title">@ViewData["Title"]</h4>
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="row">
+        <div class="col-md-4 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+
+                    <div class="form-group row d-none">
+                        @Html.LabelFor(model => model.ReturnURL, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.ReturnURL, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.ReturnURL, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row d-none">
+                        @Html.LabelFor(model => model.Id, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.Id, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.Id, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        @Html.LabelFor(model => model.V_Number, htmlAttributes: new { @class = "col-4 col-form-label" })
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.V_Number, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(model => model.V_Number, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label class = "col-4 col-form-label">Booking time</label>
+                        <div class="col-8">
+                            @Html.EditorFor(model => model.In_Time,   new { htmlAttributes = new { id = "xbasic-datepicker", @class = "form-control flatpickr-input active" } })
+                            @Html.ValidationMessageFor(model => model.In_Time, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+
+ 
+
+ 
+
+                    <div class="form-group row">
+                        <div class="col-4">
+                        </div>
+                        <div class="col-8">
+                            <button type="submit" class="btn btn-primary mr-2">Book Now</button>
+                            &nbsp;
+                            
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+
+                    <h4> Booking Details</h4>
+
+                    <div id="divRecords" class="m-0 p-0 mt-2">
+                        <div class="table-responsive">
+                            <table class="table table-centered table-nowrap table-striped">
+                                <thead>
+                                    <tr>
+                                        <th class="d-none">@Html.DisplayNameFor(model => model.Id)</th>
+                                        <th>@Html.DisplayNameFor(model => model.V_Number)</th>
+                                        <th>@Html.DisplayNameFor(model => model.In_Time)</th>
+                                        <th>@Html.DisplayNameFor(model => model.Out_Time)</th>
+                                        <th>@Html.DisplayNameFor(model => model.Status)</th>
+                                       
+                                    </tr>
+                                </thead>
+                                <tbody id="tblBody">
+                                    
+                                        <tr id=" ">
+                                            <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
+                                            <td>NP 2345</td>
+                                            <td>30 March 2023 1.45 pm</td>
+                                            <td>-</td>
+                                            <td><span class="badge badge-info">Pending</span></td>
+                                            
+                                        </tr>
+
+                                        <tr id=" ">
+                                            <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
+                                            <td>NP 2345</td>
+                                            <td>02 March 2023 1.45 pm</td>
+                                            <td> - </td>
+                                            <td><span class="badge badge-warning">Slot Not Available</span></td>
+
+                                        </tr>
+
+                                        <tr id=" ">
+                                            <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
+                                            <td>NP 4345</td>
+                                            <td>10 March 2023 6.45 pm</td>
+                                        <td>10 March 2023 9.45 pm</td>
+                                            <td><span class="badge badge-success">Completed</span></td>
+
+                                        </tr>
+                                    <tr id=" ">
+                                        <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
+                                        <td>NP 2345</td>
+                                        <td>3 March 2023 3.45 pm</td>
+                                        <td>03 March 2023 6.45 pm</td>
+                                        <td><span class="badge badge-success">Completed</span></td>
+
+                                    </tr>
+                                    <tr id=" ">
+                                        <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
+                                        <td>NP 2345</td>
+                                        <td>5 March 2023 12.45 am</td>
+                                        <td>05 March 2023 2.45 pm</td>
+                                        <td><span class="badge badge-success">Completed</span></td>
+
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+
+
+                    </div>
+
+
+
+           
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+}
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script src="~/js/datepicker.js"></script>
+
+    <script>
+
+    </script>
+
+}
+
+
+

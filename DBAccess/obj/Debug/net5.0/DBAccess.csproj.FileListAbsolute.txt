@@ -1,0 +1,72 @@
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\bin\Debug\net5.0\DBAccess.deps.json
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\bin\Debug\net5.0\DBAccess.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\bin\Debug\net5.0\ref\DBAccess.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\bin\Debug\net5.0\DBAccess.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfoInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfo.cs
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.csproj.CoreCompileInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\ref\DBAccess.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.csprojAssemblyReference.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\bin\Debug\net5.0\DBAccess.deps.json
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\bin\Debug\net5.0\DBAccess.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\bin\Debug\net5.0\DBAccess.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.csproj.AssemblyReference.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfoInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfo.cs
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.csproj.CoreCompileInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\refint\DBAccess.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\DBAccess.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\DBAccess\obj\Debug\net5.0\ref\DBAccess.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.deps.json
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.AssemblyReference.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfoInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfo.cs
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.CoreCompileInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\refint\DBAccess.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\ref\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\refint\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\DBAccess\obj\Debug\net5.0\ref\DBAccess.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.deps.json
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.AssemblyReference.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfoInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfo.cs
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.CoreCompileInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\refint\DBAccess.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\ref\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\bin\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\refint\DBAccess.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\DBAccess.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\DBAccess\obj\Debug\net5.0\ref\DBAccess.dll

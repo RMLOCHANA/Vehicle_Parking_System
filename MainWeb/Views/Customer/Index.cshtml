@@ -1,0 +1,139 @@
+﻿@model CustomerSearchView
+@{
+    ViewData["Title"] = "Sample Customer";
+
+    ViewData["CustomerActive"] = "active";
+
+}
+
+<partial name="_ConfirmDelete" />
+
+<!-- start page title -->
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body p-2 p-md-3">
+
+                <div class="text-center float-md-right">
+                    <a href="@Url.Action("Add")" class="btn btn-outline-primary btn-icon-text">
+                        <i class="mdi mdi-plus-circle-outline"></i>
+                        Add Customer
+                    </a>
+                </div>
+
+                <div class="row justify-content-md-start justify-content-center">
+
+                    <div class="p-1 pl-0">
+                        @Html.EditorFor(model => model.KeyW, new { htmlAttributes = new { @class = "form-control", placeholder = "Search", id = "txtKeyW", autofocus = "autofocus", onkeyup = "SearchStart()" } })
+                        @Html.ValidationMessageFor(model => model.KeyW, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>
+
+                <div id="divLoad" class="d-flex justify-content-center mt-2 position-absolute w-100">
+                    <div id="spnLoad" class="spinner-border " role="status"></div>
+                </div>
+
+                <div id="divRecords" class="m-0 p-0 mt-2"></div>
+
+                <input type="hidden" id="txtRecordCount" value="@Model.RecordCount" />
+                <input type="hidden" id="txtPageSize" value="@Model.PageSize" />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("_Pagination", Model.PaginationList)
+
+@section Scripts {
+        //@{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+
+    <script src="~/js/pagination.js" asp-append-version="true"></script>
+
+    <script title="Main">
+
+        var Page = 1;
+        var PageURL = '/Customer/_MainList';
+
+        $(document).ready(function () {
+
+            LoadPage(1);
+        });
+
+        function GetData(pageNo) {
+            var KeyW = $("#txtKeyW").val();
+            Page = pageNo;
+            var PageSize = $("#txtPageSize").val();
+
+            var data = {
+                KeyW: KeyW,
+                Page: Page,
+                PageSize: PageSize
+            };
+
+            return data;
+        }
+
+
+    </script>
+
+
+    <script title="Search">
+
+        function SearchStart() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("txtKeyW");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("tblBody");
+            tr = table.getElementsByTagName("tr");
+
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                td1 = tr[i].getElementsByTagName("td")[1];
+
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    txtValue = txtValue + ' ' + td1.textContent || td1.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+
+        $("#txtKeyW").on("keydown", function search(e) {
+            if (e.keyCode == 13) {
+                Search();
+            }
+        });
+
+        function Search() {
+
+            var KeyW = $("#txtKeyW").val();
+
+            var url = '@Url.Action("Index", "Customer")';
+
+            var ParamPart = "&";
+            ParamPart = ParamPart + ((KeyW != "") ? '&KeyW=' + KeyW : '');
+
+            ParamPart = ParamPart.replace("&&", "");
+
+            window.location.href = url + '?' + ParamPart;
+            event.preventDefault();
+        };
+
+    </script>
+
+}
+
+
+

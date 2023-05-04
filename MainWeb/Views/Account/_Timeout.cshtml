@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+}
+<div class="alert alert-danger btn-user m-1">
+    Session has timed out. <a onclick="GoToLogin();" href="javascript:void(0);">Login again</a>
+</div>
+
+<script>
+
+    function GoToLogin() {
+        var url = '/Account/Login';
+        var ReturnURL = window.location.href;
+        var ParamPart = "&";
+        ParamPart = ParamPart + '&ReturnURL=' + ReturnURL;
+
+        ParamPart = ParamPart.replace("&&", "");
+
+        window.location.href = url + '?' + ParamPart;
+        event.preventDefault();
+    }
+
+</script>
+
+

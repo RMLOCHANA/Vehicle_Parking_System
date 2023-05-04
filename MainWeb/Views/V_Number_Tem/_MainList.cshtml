@@ -1,0 +1,71 @@
+﻿@model IEnumerable<HRIS.Sample.Models.V_Number_Temp>
+
+@{
+    Layout = null;
+}
+
+<div class="table-responsive">
+    <table class="table table-centered table-nowrap table-striped">
+        <thead>
+            <tr>
+                <th class="d-none">@Html.DisplayNameFor(model => model.First().Id)</th>
+                <th>@Html.DisplayNameFor(model => model.First().V_Number)</th>
+                <th>Booking</th>
+                <th>@Html.DisplayNameFor(model => model.First().Slot)</th>
+                <th>@Html.DisplayNameFor(model => model.First().In_Time)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Out_Time)</th>
+               
+                <th>@Html.DisplayNameFor(model => model.First().Status)</th>
+                <th style="width:70px;">Action</th>
+            </tr>
+        </thead>
+        <tbody id="tblBody">
+            @foreach (var item in Model)
+            {
+                <tr id="row_@item.Id">
+                <td class="d-none">@Html.DisplayFor(modelItem => item.Id)</td>
+                <td>@Html.DisplayFor(modelItem => item.V_Number)</td>
+                <td>@item.In_Time.ToString("yyyy-MM-dd")</td>
+                <td>
+
+                        @if (item.Status != "SNA"&& item.Status != "C")
+                        {
+                            <div class="btn-group">
+                                <button data-toggle="modal" data-target="#exampleModal"   class="btn btn-sm  btn-secondary btn-icon-text btn-edit-profile" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <i data-feather="edit" class="btn-icon-prepend"></i> Allocate Slot 
+                                </button>
+                               
+                            </div>
+                        }
+                        else
+                        {
+                            @if (item.Status != "C")
+                            {
+                                <strong class="text-center">ST002</strong>
+
+                            }
+                            else
+                            {
+                                <strong class="text-center"> - </strong>
+
+
+                            }
+                        }
+
+                    </td>
+                <td>@Html.DisplayFor(modelItem => item.In_Time)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Out_Time)</td>
+ 
+                    <td><span class="badge badge-@item.ActiveStatusClass">@item.ActiveStatusText</span></td>
+                <td>
+                        <a href="@Url.Action("Edit", new { id = item.Id })" class="table-icon text-primary"><i class="mdi mdi-square-edit-outline"></i></a>
+                        <a href="javascript:void(0);" onclick="ConfirmDelete('@item.Id','@Url.Action("Delete")')" class="table-icon text-danger"> <i class="mdi mdi-delete"></i></a>
+                </td>
+            </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+

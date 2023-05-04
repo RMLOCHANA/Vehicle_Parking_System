@@ -1,0 +1,72 @@
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\bin\Debug\net5.0\Common.deps.json
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\bin\Debug\net5.0\Common.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\bin\Debug\net5.0\ref\Common.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\bin\Debug\net5.0\Common.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\ref\Common.dll
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.pdb
+F:\WebProjects\emPower HRIS\emPower HRIS\Common\obj\Debug\net5.0\Common.csprojAssemblyReference.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\bin\Debug\net5.0\Common.deps.json
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\bin\Debug\net5.0\Common.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\bin\Debug\net5.0\Common.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\refint\Common.dll
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\Common.pdb
+F:\Dushman Projects\Project backups\backups\emPower HRIS\EmPower HRIS - Original\emPower HRIS\Common\obj\Debug\net5.0\ref\Common.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\bin\Debug\net5.0\Common.deps.json
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\bin\Debug\net5.0\Common.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\bin\Debug\net5.0\Common.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\refint\Common.dll
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.pdb
+C:\Users\locha\Downloads\PROJECTl\PROJECT\Common\obj\Debug\net5.0\ref\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\bin\Debug\net5.0\Common.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\bin\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\bin\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\refint\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\PROJECTl\PROJECT\Common\obj\Debug\net5.0\ref\Common.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\bin\Debug\net5.0\Common.deps.json
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\bin\Debug\net5.0\Common.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\bin\Debug\net5.0\Common.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\refint\Common.dll
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.pdb
+C:\Users\Dushman Panchalingam\Downloads\Final Project\PROJECT\Common\obj\Debug\net5.0\ref\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\bin\Debug\net5.0\Common.deps.json
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\bin\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\bin\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.csproj.AssemblyReference.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfoInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.AssemblyInfo.cs
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.csproj.CoreCompileInputs.cache
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\refint\Common.dll
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\Common.pdb
+H:\ICBT Campus\Lecture Videos, Notes & Assignment\Final Project\My Project\Final Project\Final Project\PROJECT\Common\obj\Debug\net5.0\ref\Common.dll

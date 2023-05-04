@@ -1,0 +1,139 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "Register Customer - Advance Parking ";
+
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/lib/core/core.css">
+    <link rel="stylesheet" href="~/fonts/feather-font/css/iconfont.css">
+    <link rel="stylesheet" href="~/css/style.css">
+
+    <link rel="stylesheet" href="~/custom-css/header.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/custom-css/html.css" asp-append-version="true">
+    <link rel="stylesheet" href="~/custom-css/sidebar.css" asp-append-version="true">
+
+    <link rel="shortcut icon" href="~/favicon.ico" />
+</head>
+<body class="sidebar-dark">
+    <div class="main-wrapper">
+        <div class="page-wrapper full-page">
+            <div class="page-content d-flex align-items-center justify-content-center">
+
+                <div class="row w-100 mx-0 auth-page">
+                    <div class="col-md-8 col-xl-6 mx-auto">
+                        <div class="card">
+                            <div class="row">
+                                <div class="col-md-12 pl-md-0">
+                                    <div class="auth-form-wrapper px-4 py-5">
+                                        <a href="#" class="noble-ui-logo d-block mb-2">Advance<span> Parking</span></a>
+                                        <h5 class="text-muted font-weight-normal mb-4">Please Register into New Account.</h5>
+                                        @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "forms-sample" }))
+                                        {
+                                            @Html.AntiForgeryToken()
+                                            <div class="form-group">
+                                                <div class="input-group d-none">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Cus_id, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your id", autofocus = "autofocus" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Cus_id, "", new { @class = "text-danger" })
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Cus_name, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Name", autofocus = "autofocus" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Cus_name, "", new { @class = "text-danger" })
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Cus_addresss, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Address", autofocus = "autofocus",@row="5" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Cus_addresss, "", new { @class = "text-danger" })
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Cus_email, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Email", autofocus = "autofocus" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Cus_email, "", new { @class = "text-danger" })
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Cus_password, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Password", autofocus = "autofocus" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Cus_password, "", new { @class = "text-danger" })
+                                            </div>
+
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fas fa-user"></i></span>
+                                                    </div>
+                                                    @Html.EditorFor(model => model.Cus_phonenumber, new { htmlAttributes = new { @class = "form-control", placeholder = "Enter your Phone number", autofocus = "autofocus" } })
+                                                </div>
+                                                @Html.ValidationMessageFor(model => model.Cus_phonenumber, "", new { @class = "text-danger" })
+                                            </div>
+
+
+
+
+                                            <div class="mt-3">
+                                                <button type="submit" class="btn btn-primary btn-block text-white">Register</button>
+                                            </div>
+                                         
+                                            <hr>
+                                            <div class="mt-3 text-center">
+                                                <p class="text-muted mb-0">Already have an account?</p>
+                                                <a href="~/Account/LoginCustomer" class="btn btn-outline-primary btn-block">Sign Up</a>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/core/core.js"></script>
+    <script src="~/lib/feather-icons/feather.min.js"></script>
+    <script src="~/js/template.js"></script>
+
+    <script src="~/js/custom.js" asp-append-version="true"></script>
+
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+</body>
+</html>
+
+

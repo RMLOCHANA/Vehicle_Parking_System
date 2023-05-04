@@ -1,0 +1,196 @@
+﻿@model SampleDataSearchView
+@inject DropDown.ICommon CommonDDL
+@inject DropDown.ISampleDDL SampleDDL
+@{
+    ViewData["Title"] = "Sample Data";
+
+    ViewData["SampleDataActive"] = "active";
+
+}
+
+<partial name="_ConfirmDelete" />
+
+<!-- start page title -->
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+            <div class="row justify-content-start float-right mr-0 mt-2 d-none">
+
+                <a href="@Url.Action("Index","SampleCategory")" class="ml-1">
+                    <div class="card-box  bg-white p-1 pr-2 m-0">
+                        <p class="text- small mb-0">Figure 1</p>
+                        <p class="text-dark m-0 mb-0">0.00</p>
+                    </div>
+                </a>
+
+                <a href="@Url.Action("Index","Customer")" class="ml-1">
+                    <div class="card-box  bg-white p-1 pr-2 m-0">
+                        <p class="text- small mb-0">Figure 2 </p>
+                        <p class="text-dark m-0 mb-0">0.0</p>
+                    </div>
+                </a>
+
+            </div>
+            <h4 class="page-title">@ViewData["Title"] (@Model.RecordCount)</h4>
+        </div>
+    </div>
+</div>
+<!-- end page title -->
+
+<div class="row">
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body p-2 p-md-3">
+
+                <div class="text-center float-md-right">
+                    <a href="@Url.Action("Add")" class="btn btn-outline-primary btn-icon-text">
+                        <i class="mdi mdi-plus-circle-outline"></i>
+                        Add Data
+                    </a>
+                </div>
+
+                <div class="row justify-content-md-start justify-content-center">
+
+                    <div class="p-1 pl-0">
+                        @Html.EditorFor(model => model.KeyW, new { htmlAttributes = new { @class = "form-control", placeholder = "Search", id = "txtKeyW", autofocus = "autofocus", onkeyup = "SearchStart()" } })
+                        @Html.ValidationMessageFor(model => model.KeyW, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="p-1 pl-0">
+                        @Html.DropDownList("CategoryID", await SampleDDL.SampleCategoryList(), "(All Categories)", htmlAttributes: new { @class = "", id = "cmbCategoryID" })
+                    </div>
+
+                    <div class="p-1 pl-0">
+                        @Html.DropDownList("ActiveStatus", CommonDDL.ActiveStatusList(), "(All Statuses)", htmlAttributes: new { @class = "", id = "cmbActiveStatus" })
+                    </div>
+
+                </div>
+
+                <div id="divLoad" class="d-flex justify-content-center mt-2 position-absolute w-100">
+                    <div id="spnLoad" class="spinner-border " role="status"></div>
+                </div>
+
+                <div id="divRecords" class="m-0 p-0 mt-2"></div>
+
+                <input type="hidden" id="txtRecordCount" value="@Model.RecordCount" />
+                <input type="hidden" id="txtPageSize" value="@Model.PageSize" />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@await Html.PartialAsync("_Pagination", Model.PaginationList)
+
+@section Scripts {
+    //@{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+
+
+    <script src="~/js/pagination.js" asp-append-version="true"></script>
+
+
+    <script title="Main">
+
+        var Page = 1;
+        var PageURL = '/SampleData/_MainList';
+
+        $(document).ready(function () {
+
+            LoadPage(1);
+        });
+
+        function GetData(pageNo) {
+            var KeyW = $("#txtKeyW").val();
+            var CategoryID = $("#cmbCategoryID").val();
+            var ActiveStatus = $("#cmbActiveStatus").val();
+            Page = pageNo;
+            var PageSize = $("#txtPageSize").val();
+
+            var data = {
+                KeyW: KeyW,
+                CategoryID: CategoryID,
+                ActiveStatus: ActiveStatus,
+                Page: Page,
+                PageSize: PageSize
+            };
+
+            return data;
+        }
+
+
+    </script>
+
+
+    <script title="Search">
+
+        function SearchStart() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("txtKeyW");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("tblBody");
+            tr = table.getElementsByTagName("tr");
+
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                td1 = tr[i].getElementsByTagName("td")[1];
+                td2 = tr[i].getElementsByTagName("td")[2];
+                td3 = tr[i].getElementsByTagName("td")[3];
+                td4 = tr[i].getElementsByTagName("td")[4];
+                td5 = tr[i].getElementsByTagName("td")[5];
+
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    txtValue = txtValue + ' ' + td1.textContent || td1.innerText;
+                    txtValue = txtValue + ' ' + td2.textContent || td2.innerText;
+                    txtValue = txtValue + ' ' + td3.textContent || td3.innerText;
+                    txtValue = txtValue + ' ' + td4.textContent || td4.innerText;
+                    txtValue = txtValue + ' ' + td5.textContent || td5.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+
+        $("#txtKeyW").on("keydown",function search(e) {
+            if(e.keyCode == 13) {
+                Search();
+            }
+        });
+
+        $("#cmbCategoryID").change(function (event) {
+            Search();
+        });
+
+        $("#cmbActiveStatus").change(function (event) {
+            Search();
+        });
+
+        function Search() {
+
+            var KeyW = $("#txtKeyW").val();
+            var CategoryID = $("#cmbCategoryID").val();
+            var ActiveStatus = $("#cmbActiveStatus").val();
+
+            var url = '@Url.Action("Index", "SampleData")';
+
+            var ParamPart = "&";
+            ParamPart = ParamPart + ((KeyW != "") ? '&KeyW=' + KeyW : '');
+            ParamPart = ParamPart + ((CategoryID != "") ? '&CategoryID=' + CategoryID : '');
+            ParamPart = ParamPart + ((ActiveStatus != "") ? '&ActiveStatus=' + ActiveStatus : '');
+
+            ParamPart = ParamPart.replace("&&", "");
+
+            window.location.href = url + '?' + ParamPart;
+            event.preventDefault();
+        };
+
+    </script>
+
+}
+
+
+
