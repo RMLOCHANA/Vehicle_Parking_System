@@ -77,7 +77,9 @@ namespace HRIS.Sample.Models
                     case "C":
                         retVal = "Completed";
                         break;
-
+                    case "SA":
+                        retVal = "Slot Allocated";
+                        break;
                     default:
                         retVal = Status;
                         break;
@@ -103,7 +105,9 @@ namespace HRIS.Sample.Models
                     case "C":
                         retVal = "success";
                         break;
-
+                    case "SA":
+                        retVal = "success";
+                        break;
                     default:
                         retVal = "";
                         break;
@@ -111,7 +115,7 @@ namespace HRIS.Sample.Models
                 return retVal;
             }
         }
-
+        public List<V_Number_Temp> DataList = new List<V_Number_Temp>();
         #endregion
 
     }

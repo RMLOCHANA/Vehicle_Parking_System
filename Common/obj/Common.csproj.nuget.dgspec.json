@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj": {}
+    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj": {}
   },
   "projects": {
-    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj": {
+    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj",
+        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj",
+        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\locha\\.nuget\\packages\\",
-        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\obj\\",
+        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\locha\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using HRIS.Account.Models;
 using Microsoft.AspNetCore.Http;
+using HRIS.Sample.Models;
 
 public class Auth
 {
@@ -43,4 +44,37 @@ public class Auth
             _context.HttpContext.Response.Redirect("/Account/_Timeout");
         }
     }
+
+
+    public static void Checkcus(string AccessCode = "")
+    {
+        IHttpContextAccessor _context = new HttpContextAccessor();
+        if (_context.HttpContext.Session.GetObject<Customer>("Customer") == null)
+        {
+            var refUrl = _context.HttpContext.Request.GetTypedHeaders().Referer;
+            string ReturnURL = refUrl != null ? refUrl.ToString() : "";
+            string AbsoluteURL = _context.HttpContext.Request.Path.ToString();
+            if (AbsoluteURL == null) ReturnURL = "";
+            if (AbsoluteURL == "/") ReturnURL = "";
+            if (AbsoluteURL.ToLower().Contains("add")) ReturnURL = "";
+            if (AbsoluteURL.ToLower().Contains("edit")) ReturnURL = "";
+            if (AbsoluteURL.ToLower().Contains("login")) ReturnURL = "";
+
+            
+          
+                _context.HttpContext.Response.Redirect("/Account/LoginCustomer");
+           
+
+        }
+    }
+
+    public static void CheckUsercusPartial(string AccessCode = "")
+    {
+        IHttpContextAccessor _context = new HttpContextAccessor();
+        if (_context.HttpContext.Session.GetObject<Customer>("Customer") == null)
+        {
+            _context.HttpContext.Response.Redirect("/Account/_Timeout");
+        }
+    }
 }
+

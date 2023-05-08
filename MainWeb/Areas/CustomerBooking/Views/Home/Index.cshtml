@@ -15,9 +15,21 @@
         </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="mt-2 alert alert-danger  @(TempData["ErrorMessage"] == null ? "d-none" : "")">
+            @(TempData["ErrorMessage"])
+        </div>
+        <div class="mt-2 alert alert-success  @(TempData["SuccessMessage"] == null ? "d-none" : "")">
+            @(TempData["SuccessMessage"])
+        </div>
+    </div>
+</div>
 <!-- end page title -->
-@using (Html.BeginForm())
+@using (Html.BeginForm("Add", "Home", new { area = "CustomerBooking" }, FormMethod.Post))
 {
+    
     @Html.AntiForgeryToken()
 
     @Html.ValidationSummary(true, "", new { @class = "text-danger" })
@@ -60,8 +72,7 @@
                         </div>
                     </div>
 
- 
-
+                   
  
 
                     <div class="form-group row">
@@ -99,50 +110,25 @@
                                     </tr>
                                 </thead>
                                 <tbody id="tblBody">
-                                    
-                                        <tr id=" ">
-                                            <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
-                                            <td>NP 2345</td>
-                                            <td>30 March 2023 1.45 pm</td>
-                                            <td>-</td>
-                                            <td><span class="badge badge-info">Pending</span></td>
+                                    @foreach (var item in Model.DataList)
+                                    {
+                                         
+                                            <tr id=" ">
+                                                <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
+                                            <td>@Html.DisplayFor(modelItem => item.V_Number)</td>
+                                            <td>@item.In_Time</td>
+                                            @if (item.Status != "P" && item.Status != "SNA")
+                                            {
+                                                <td>@Html.DisplayFor(modelItem => item.Out_Time)</td>
+                                            }
+                                            else{
+                                                <td>-</td>
+                                            }
+                                            <td><span class="badge badge-@item.ActiveStatusClass">@item.ActiveStatusText</span></td>
                                             
                                         </tr>
-
-                                        <tr id=" ">
-                                            <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
-                                            <td>NP 2345</td>
-                                            <td>02 March 2023 1.45 pm</td>
-                                            <td> - </td>
-                                            <td><span class="badge badge-warning">Slot Not Available</span></td>
-
-                                        </tr>
-
-                                        <tr id=" ">
-                                            <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
-                                            <td>NP 4345</td>
-                                            <td>10 March 2023 6.45 pm</td>
-                                        <td>10 March 2023 9.45 pm</td>
-                                            <td><span class="badge badge-success">Completed</span></td>
-
-                                        </tr>
-                                    <tr id=" ">
-                                        <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
-                                        <td>NP 2345</td>
-                                        <td>3 March 2023 3.45 pm</td>
-                                        <td>03 March 2023 6.45 pm</td>
-                                        <td><span class="badge badge-success">Completed</span></td>
-
-                                    </tr>
-                                    <tr id=" ">
-                                        <td class="d-none">@*@Html.DisplayFor(modelItem => item.Id)*@</td>
-                                        <td>NP 2345</td>
-                                        <td>5 March 2023 12.45 am</td>
-                                        <td>05 March 2023 2.45 pm</td>
-                                        <td><span class="badge badge-success">Completed</span></td>
-
-                                    </tr>
-
+                                         
+                                    }
                                 </tbody>
                             </table>
                         </div>

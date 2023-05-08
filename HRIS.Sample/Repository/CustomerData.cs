@@ -59,6 +59,18 @@ namespace HRIS.Sample.Repository
             return db.Get<Customer, dynamic>(query, param);
         }
 
+        public Task<Customer> Login(string APIKey, string Cus_email)
+        {
+            var param = new Dictionary<string, object>
+            {
+                { "APIKey",APIKey },
+                { "Cus_email",Cus_email }
+            };
+
+            string query = "dbo.Customer_Login @APIKey, @Cus_email";
+            return db.Get<Customer, dynamic>(query, param);
+        }
+
         public Task<string> Save(string APIKey, Customer obj, string LogUserID)
         {
             var param = new Dictionary<string, object>

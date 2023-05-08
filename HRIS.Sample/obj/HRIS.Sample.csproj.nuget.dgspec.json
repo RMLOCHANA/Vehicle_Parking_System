@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj": {}
+    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj": {}
   },
   "projects": {
-    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj": {
+    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj",
+        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj",
+        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\locha\\.nuget\\packages\\",
-        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\obj\\",
+        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\locha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\DBAccess\\DBAccess.csproj": {
+    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\DBAccess\\DBAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\DBAccess\\DBAccess.csproj",
+        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\DBAccess\\DBAccess.csproj",
         "projectName": "DBAccess",
-        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\DBAccess\\DBAccess.csproj",
+        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\DBAccess\\DBAccess.csproj",
         "packagesPath": "C:\\Users\\locha\\.nuget\\packages\\",
-        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\DBAccess\\obj\\",
+        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\DBAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\locha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,14 +124,14 @@
         }
       }
     },
-    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj": {
+    "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj",
+        "projectUniqueName": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj",
         "projectName": "HRIS.Sample",
-        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj",
+        "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\HRIS.Sample\\HRIS.Sample.csproj",
         "packagesPath": "C:\\Users\\locha\\.nuget\\packages\\",
-        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\HRIS.Sample\\obj\\",
+        "outputPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\HRIS.Sample\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\locha\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -148,11 +148,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj": {
-                "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\Common\\Common.csproj"
+              "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj": {
+                "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\Common\\Common.csproj"
               },
-              "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\DBAccess\\DBAccess.csproj": {
-                "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Final Project\\Final Project\\PROJECT\\DBAccess\\DBAccess.csproj"
+              "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\DBAccess\\DBAccess.csproj": {
+                "projectPath": "H:\\ICBT Campus\\Lecture Videos, Notes & Assignment\\Final Project\\My Project\\Project Presentation\\Final Folder\\Final Project\\Final Project New\\PROJECT\\DBAccess\\DBAccess.csproj"
               }
             }
           }

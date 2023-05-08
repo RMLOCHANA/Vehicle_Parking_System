@@ -11,5 +11,7 @@ namespace HRIS.Sample.Repository
         Task<int> GetCount(string APIKey, string KeyW = "");
         Task<List<Customer>> GetList(string APIKey, string KeyW = "", int Page = 0, int PageSize = 99999);
         Task<string> Save(string APIKey, Customer obj, string LogUserID);
+
+        Task<Customer> Login(string APIKey, string Cus_email);
     }
 }

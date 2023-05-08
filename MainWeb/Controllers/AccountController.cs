@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using HRIS.Account.Models;
 using HRIS.Account.Repository;
 using HRIS.Sample.Models;
+using HRIS.Sample.Repository;
 
 namespace MainWeb.Controllers
 {
@@ -13,10 +14,11 @@ namespace MainWeb.Controllers
         #region Construction
 
         private readonly IUserData Users;
-
-        public AccountController(IUserData Users)
+        private readonly ICustomerData customerData;
+        public AccountController(IUserData Users, ICustomerData customerData)
         {
             this.Users = Users;
+            this.customerData = customerData;
         }
 
         #endregion
@@ -90,7 +92,11 @@ namespace MainWeb.Controllers
             return RedirectToAction("Login", "Account");
         }
 
-
+        public IActionResult LogoutCus()
+        {
+            HttpContext.Session.Clear();
+            return RedirectToAction("LoginCustomer", "Account");
+        }
 
         public IActionResult LoginCustomer(string ReturnURL)
         {
@@ -105,7 +111,28 @@ namespace MainWeb.Controllers
         {
             try
             {
-               
+                var usr = await customerData.Login(AppData.GetAPIKey(), obj.Email);
+                if (usr != null)
+                {
+                    if (obj.Password != usr.Cus_password)
+                    {
+                        ViewData["ErrorMessage"] = "Invalid password. Please try again.";
+                        return View(obj);
+                    }
+                
+                    else
+                    {
+                        HttpContext.Session.SetObject("Customer", usr);
+
+                      
+                        return RedirectToAction("Index", "Home", new { area = "CustomerBooking" });
+                        
+                    }
+                }
+                else
+                {
+                    ViewData["ErrorMessage"] = "Invalid username. Please try again.";
+                }
             }
             catch (Exception ex)
             {
@@ -128,7 +155,14 @@ namespace MainWeb.Controllers
         {
             try
             {
-
+                obj.Cus_id = "";
+                obj.Cus_id = await customerData.Save
+                                    (
+                                       APIKey: AppData.GetAPIKey(),
+                                       obj: obj,
+                                       LogUserID: ""
+                                    );
+                return RedirectToAction("Index", "Home", new { area = "CustomerBooking" });
             }
             catch (Exception ex)
             {
